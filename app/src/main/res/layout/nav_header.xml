@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@color/design_default_color_secondary_variant"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@mipmap/ic_launcher_round" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingTop="8dp"-->
+<!--        android:text="Coding in Flow"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="info@codinginflow.com" />-->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bla_logo"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Bangladesh Law Association"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>

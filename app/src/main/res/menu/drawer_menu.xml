@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+   <!-- <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="Profile" />
+    </group>-->
+
+
+
+
+
+            <item
+                android:id="@+id/id1"
+
+                android:title="About BLA" />
+            <item
+                android:id="@+id/id2"
+
+                android:title="President's Message" />
+
+            <item
+                android:id="@+id/id3"
+
+                android:title="General Secretary's Message" />
+
+            <item
+                android:id="@+id/id4"
+
+                android:title="Present Executive Committee(20-21)" />
+            <item
+                android:id="@+id/id5"
+
+                android:title="Former  Executive Committee" />
+
+            <item
+                android:id="@+id/id6"
+
+                android:title="BLA Secretariat" />
+
+
+
+
+    <item
+
+        android:title="Membership">
+        <menu>
+            <item
+                android:id="@+id/id7"
+
+                android:title="Member List"
+                android:icon="@drawable/ic_android_black_24dp"/>
+            <item
+                android:id="@+id/id8"
+
+                android:title="Member Services"
+                android:icon="@drawable/ic_android_black_24dp"/>
+
+            <item
+                android:id="@+id/id9"
+
+                android:title="Become Member of BLA"
+                android:icon="@drawable/ic_android_black_24dp"/>
+            <item
+                android:id="@+id/id10"
+
+                android:title="Membership Process"
+                android:icon="@drawable/ic_android_black_24dp"/>
+        </menu>
+    </item>
+
+    <item
+
+        android:title="Media Center"
+        >
+        <menu>
+            <item
+                android:id="@+id/id11"
+
+                android:title="Press Release"
+                android:icon="@drawable/ic_android_black_24dp"/>
+            <item
+                android:id="@+id/id12"
+
+                android:title="News Archive"
+                android:icon="@drawable/ic_android_black_24dp"/>
+
+            <item
+                android:id="@+id/id13"
+
+                android:title="Gallery"
+                android:icon="@drawable/ic_android_black_24dp"/>
+            <item
+                android:id="@+id/id14"
+
+                android:title="Videos"
+                android:icon="@drawable/ic_android_black_24dp"/>
+        </menu>
+
+
+
+    </item>
+
+    <item
+        android:id="@+id/id15"
+
+        android:title="Contact Us" />
+</menu>
